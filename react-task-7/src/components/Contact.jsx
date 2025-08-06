@@ -2,15 +2,24 @@ export default function ContactMe() {
   return (
     <section
       id="contact"
-      className="bg-[#fef3dc] py-20 px-6 flex flex-col items-center"
+      className="bg-[#fef3dc] py-20 px-6 flex flex-col items-center relative overflow-hidden"
     >
-      <h2 className="text-4xl font-serif font-bold text-center mb-10 text-[#25392B]">
+      {/* Decorative Circles */}
+      <div className="absolute top-10 left-10 w-24 h-24 bg-[#ffccd5] opacity-50 rounded-full z-0"></div>
+      <div className="absolute bottom-10 right-10 w-28 h-28 bg-[#bae6fd] opacity-50 rounded-full z-0"></div>
+      <div className="absolute top-[55%] left-[15%] w-20 h-20 bg-[#fbcfe8] opacity-50 rounded-full z-0"></div>
+      <div className="absolute bottom-[30%] right-[25%] w-24 h-24 bg-[#d9f99d] opacity-50 rounded-full z-0"></div>
+      <div className="absolute top-[15%] right-[20%] w-20 h-20 bg-[#ffe7cc] opacity-50 rounded-full z-0"></div>
+      <div className="absolute bottom-[10%] left-[40%] w-28 h-28 bg-[#e4dfff] opacity-50 rounded-full z-0"></div>
+
+      {/* Heading */}
+      <h2 className="text-4xl font-serif font-bold text-center mb-10 text-[#25392B] relative z-10">
         Let's Connect
         <div className="w-24 h-1 bg-[#F4A300] rounded-full mx-auto mt-3"></div>
-        </h2>
+      </h2>
 
-
-      <div className="bg-[#e2ccb3] rounded-2xl shadow-[8px_8px_0px_#1f1f1f] p-10 w-full max-w-2xl">
+      {/* Contact Form */}
+      <div className="bg-[#e2ccb3] rounded-2xl shadow-[8px_8px_0px_#1f1f1f] p-10 w-full max-w-2xl relative z-10">
         <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Name */}
           <div className="flex flex-col col-span-2 md:col-span-1">

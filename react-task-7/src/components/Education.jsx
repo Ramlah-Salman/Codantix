@@ -23,8 +23,19 @@ const education = [
 
 export default function Education() {
   return (
-    <section className="bg-[#FEF3DC] py-16 text-[#1f1f1f]">
-      <div className="max-w-5xl mx-auto px-6">
+    <section className="bg-[#FEF3DC] py-16 text-[#1f1f1f] relative overflow-hidden">
+      {/* Decorative Circles */}
+      <div className="absolute top-10 left-10 w-24 h-24 bg-[#ffccd5] opacity-50 rounded-full z-0"></div>
+      <div className="absolute bottom-10 right-10 w-28 h-28 bg-[#bae6fd] opacity-50 rounded-full z-0"></div>
+      <div className="absolute top-[60%] left-[20%] w-20 h-20 bg-[#fbcfe8] opacity-50 rounded-full z-0"></div>
+      <div className="absolute bottom-[25%] right-[30%] w-24 h-24 bg-[#d9f99d] opacity-50 rounded-full z-0"></div>
+      <div className="absolute top-[15%] right-[15%] w-20 h-20 bg-[#ffe7cc] opacity-50 rounded-full z-0"></div>
+      <div className="absolute bottom-[45%] left-[10%] w-28 h-28 bg-[#c3f0ca] opacity-50 rounded-full z-0"></div>
+      <div className="absolute top-[35%] right-[5%] w-24 h-24 bg-[#f9eae0] opacity-50 rounded-full z-0"></div>
+      <div className="absolute bottom-[5%] left-[40%] w-20 h-20 bg-[#e4dfff] opacity-50 rounded-full z-0"></div>
+
+      {/* Main Content */}
+      <div className="relative z-10 max-w-5xl mx-auto px-6">
         {/* Heading */}
         <h2 className="text-4xl font-serif font-bold text-center mb-10 text-[#25392B]">
           Education
