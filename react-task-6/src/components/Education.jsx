@@ -7,14 +7,14 @@ const education = [
   { year: "2020", degree: "Matriculation (Computer Science)", place: "CharterHouse Public School" },
 ];
 
-// Light card colors for contrast
+// card colors 
 const cardColors = ["#F8F6F1", "#ECE6DA", "#F5E9D3"];
 
 export default function Education() {
   return (
     <section className="relative bg-[linear-gradient(to_bottom,#18261E,#2F4636)] py-16 text-[#FDF5E6] overflow-hidden">
       
-      {/* Decorative Circles - Same style as Hero */}
+      {/* Circles */}
       <div className="absolute w-[320px] h-[320px] bg-[#E9F5EF] rounded-full opacity-10 top-[-120px] left-[-100px]"></div>
       <div className="absolute w-[260px] h-[260px] bg-[#F4E3B2] rounded-full opacity-10 bottom-[-100px] right-[-80px]"></div>
       <div className="absolute w-[200px] h-[200px] bg-[#D7E8D2] rounded-full opacity-10 top-[45%] left-[20%]"></div>

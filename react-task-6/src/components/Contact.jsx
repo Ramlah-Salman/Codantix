@@ -6,7 +6,7 @@ export default function Contact() {
       id="contact"
       className="relative bg-[linear-gradient(to_bottom,#18261E,#2F4636)] py-20 text-[#FDF5E6] overflow-hidden"
     >
-      {/* Decorative Circles - Same style as Hero */}
+      {/* Circles */}
       <div className="absolute w-[300px] h-[300px] bg-[#E9F5EF] rounded-full opacity-10 top-[-120px] left-[-100px]"></div>
       <div className="absolute w-[250px] h-[250px] bg-[#F4E3B2] rounded-full opacity-10 bottom-[-100px] right-[-80px]"></div>
       <div className="absolute w-[200px] h-[200px] bg-[#D7E8D2] rounded-full opacity-10 top-[50%] left-[15%]"></div>
